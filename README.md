@@ -3,6 +3,7 @@
 Created patches using Cardinal VST / VCV Rack
 
 [Get Cardinal](https://github.com/DISTRHO/Cardinal)
+
 [Get VCV Rack](https://vcvrack.com/)
 
 [Demo using created patches](https://soundcloud.com/nooneknowspeter/epilogue)
