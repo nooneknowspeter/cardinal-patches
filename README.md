@@ -16,6 +16,11 @@ Clone the repo in a directory of your choosing
 git clone https://github.com/nooneknowspeter/cardinal-patches.git
 ```
 
+Update the repo using
+```
+git pull -f
+```
+
 ### Cardinal
 
 Open Cardinal
