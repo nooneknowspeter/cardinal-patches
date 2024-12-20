@@ -18,4 +18,4 @@ Open Cardinal
 Click File in the ribbon, Shortcut Ctrl + O
 Find the cloned repo
 Select a patch and Enjoy
-![Cardinal Screenshot](https://imgur.com/a/YbOXxJC)
+![Cardinal Screenshot](https://i.imgur.com/X7p3Huw.png)
