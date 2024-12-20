@@ -1,9 +1,8 @@
 # Cardinal / VCV Rack Patches
 
-[Demo using created patches](https://soundcloud.com/nooneknowspeter/epilogue)
+Created patches using Cardinal VST / VCV Rack
 
-Created patches using Cardinal VST
-Works in VCV Rack
+[Demo using created patches](https://soundcloud.com/nooneknowspeter/epilogue)
 
 ## Installation
 
