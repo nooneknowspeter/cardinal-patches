@@ -1,28 +1,19 @@
-
-name: Create and Upload Zip to Release
-
-on:
-  push:
-    branches:
-      - main # Run workflow on push to main branch
-  workflow_dispatch: # Allow manual trigger
-
+name: Create Archive
+on: [push]
 jobs:
-  zip-and-release:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Create and Upload Zip to Release
-      uses: montudor/action-zip-release@v0.1.0
+    - uses: actions/checkout@main
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.5
       with:
-        tag_name: release-${{ github.run_number }} 
-        release_name: Cardinal-Patches_nooneknows
-        zip_name: cardinal-patches_nooneknows.zip
-        args: |
-          -x ".git/*" # Exclude specific folders
-          -x ".github/*"
-      env:
-        GITHUB_TOKEN: ${{ secrets.CARDINAL_PATCHES_RELEASE }}
+        type: 'zip'
+        filename: 'cardinal-patches_nooneknows.zip'
+        exclusions: '*.git* *.github*'
+
+    - name: Upload Release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "cardinal-patches_nooneknows.zip"
+        token: ${{ secrets.CARDINAL_PATCHES_RELEASE }}
