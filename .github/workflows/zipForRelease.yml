@@ -1,0 +1,25 @@
+name: Create Repository Zip
+
+on:
+  push:
+    branches:
+      - main # Run workflow on push to main branch
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  zip-repository:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Zip repository (excluding specific folders)
+      run: |
+        zip -r repository.zip ./* -x ".github/*" ".git/*"
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: repository-zip
+        path: repository.zip
