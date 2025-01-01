@@ -6,6 +6,9 @@ on:
       - main # Run workflow on push to main branch
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   release-zip:
     runs-on: ubuntu-latest
