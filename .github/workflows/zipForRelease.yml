@@ -12,9 +12,3 @@ jobs:
         filename: 'cardinal-patches_nooneknows.zip'
         exclusions: '*.git* *.github*'
 
-    - name: Upload Release
-      uses: ncipollo/release-action@v1.12.0
-      with:
-        tag_name: "release-${{ github.run_number }}"
-        artifacts: "cardinal-patches_nooneknows.zip"
-        token: ${{ secrets.CARDINAL_PATCHES_RELEASE }}
