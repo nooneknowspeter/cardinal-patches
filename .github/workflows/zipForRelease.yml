@@ -15,11 +15,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@main
 
     - name: Zip repository (excluding specific folders)
       run: |
-        zip -r repository.zip ./* -x ".git/*" ".github/*"
+        zip -r cardinal-patches_nooneknows.zip ./* -x ".git/*" ".github/*"
+
     - name: Create a release
       id: create_release
       uses: actions/create-release@v1
@@ -30,3 +31,10 @@ jobs:
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload Zip to Release
+      uses: actions/upload-artifact@v4
+      with:
+        name: download_here
+        path: cardinal-patches_nooneknows.zip
+      
