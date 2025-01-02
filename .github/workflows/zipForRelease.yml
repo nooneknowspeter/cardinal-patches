@@ -47,3 +47,8 @@ jobs:
         name: "cardinal-patches_nooneknows_v${{ github.run_number }}"
         path: cardinal-patches_nooneknows.zip
       
+    - name: Upload Release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "cardinal-patches_nooneknows_v${{ github.run_number }}.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
