@@ -29,29 +29,12 @@ jobs:
       uses: thedoctor0/zip-release@0.7.5
       with:
         type: 'zip'
-        filename: 'cardinal-patches_nooneknows.zip'
+        filename: 'cardinal-patches_nooneknows_v${{ github.run_number }}.zip'
         exclusions: '*.git* /*.github*/'
 
-    - name: Create a release
-      id: create_release
-      uses: actions/create-release@v1
-      with:
-        tag_name: "release-v${{ github.run_number }}"
-        release_name: Caridnal Patches @nooneknowspeter
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Upload Zip to Release
-      uses: actions/upload-artifact@v4
-      with:
-        name: "cardinal-patches_nooneknows_v${{ github.run_number }}"
-        path: cardinal-patches_nooneknows.zip
-      
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "cardinal-patches_nooneknows.zip"
+        artifacts: "cardinal-patches_nooneknows_v${{ github.run_number }}.zip"
         tag: ${{ github.run_number }}
         token: ${{ secrets.GITHUB_TOKEN }}
