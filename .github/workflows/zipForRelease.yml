@@ -8,6 +8,15 @@ on:
 
 permissions:
   contents: write
+  contents: write
+  checks: write
+
+  actions: read
+  issues: read
+  packages: write
+  pull-requests: read
+  repository-projects: read
+  statuses: read
 
 jobs:
   release-zip:
