@@ -24,17 +24,9 @@ jobs:
       id: create_release
       uses: actions/create-release@v1
       with:
-        tag_name: "release-${{ github.run_number }}"
+        tag_name: "release-v${{ github.run_number }}"
         release_name: Caridnal Patches @nooneknowspeter
         draft: false
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Upload zip to release
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: repository.zip
-        asset_name: repository.zip
-        asset_content_type: application/zip
