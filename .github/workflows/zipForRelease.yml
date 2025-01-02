@@ -22,12 +22,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
-
-    - name: Zip repository (excluding specific folders)
-      run: |
-        zip -r cardinal-patches_nooneknows.zip ./* -x ".git/*" ".github/*"
+    - uses: actions/checkout@main
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'cardinal-patches_nooneknows.zip'
+        exclusions: '*.git* /*.github*/'
 
     - name: Create a release
       id: create_release
@@ -49,5 +50,5 @@ jobs:
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "cardinal-patches_nooneknows_v${{ github.run_number }}.zip"
+        artifacts: "cardinal-patches_nooneknows.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
