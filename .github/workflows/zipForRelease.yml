@@ -36,5 +36,5 @@ jobs:
       uses: ncipollo/release-action@v1.12.0
       with:
         artifacts: "cardinal-patches_nooneknows_v${{ github.run_number }}.zip"
-        tag: ${{ github.run_number }}
+        tag: "release-v${{ github.run_number }}"
         token: ${{ secrets.GITHUB_TOKEN }}
