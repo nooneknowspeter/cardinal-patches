@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main # Run workflow on push to main branch
+    tags:
+      - '*'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
