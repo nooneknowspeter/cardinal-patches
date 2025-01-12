@@ -18,6 +18,7 @@ git --version
 [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
+
 Clone the repo in a directory of your choosing
 ```
 git clone https://github.com/nooneknowspeter/cardinal-patches.git
