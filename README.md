@@ -10,24 +10,13 @@ Created patches using Cardinal VST / VCV Rack
 
 ## Installation
 
-Git must be installed, check using
-```
-git --version
-```
+Visit the [releases](https://github.com/nooneknowspeter/cardinal-patches/releases) section of the repository
 
-[Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+![Releases Section](https://i.imgur.com/lR94x9R.png)
 
+The latest zip will be labeled with "Latest"
 
-
-Clone the repo in a directory of your choosing
-```
-git clone https://github.com/nooneknowspeter/cardinal-patches.git
-```
-
-Update the repo using
-```
-git pull -f
-```
+Download "cardinal-patches_nooneknows_vXX.zip" and unzip
 
 ### Cardinal
 
@@ -35,7 +24,7 @@ Open Cardinal
 
 Click File in the ribbon, Shortcut Ctrl / Cmd + O
 
-Find the cloned repo
+Find the folder
 
 Select a patch and Enjoy
 
