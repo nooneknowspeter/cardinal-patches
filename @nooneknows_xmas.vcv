@@ -1,11 +1,260 @@
 {
   "version": "2.4.1",
-  "zoom": 0.42044827342033386,
+  "path": "D:\\resources\\music-sfx\\!nooneknows\\cardinal-patches\\@nooneknows_xmas.vcv",
+  "zoom": 0.50000005960464478,
   "gridOffset": [
-    -62.799350738525391,
-    -1.9729030132293701
+    -74.993881225585938,
+    -1.8466283082962036
   ],
   "modules": [
+    {
+      "id": 2159047972516498,
+      "plugin": "ImpromptuModular",
+      "model": "Clocked-Clkd",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 2.0,
+          "id": 2
+        },
+        {
+          "value": 151.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        }
+      ],
+      "rightModuleId": 4187213689217722,
+      "data": {
+        "panelTheme": 1,
+        "panelContrast": 220.0,
+        "running": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "forceCvOnBpmOut": false,
+        "displayIndex": 0,
+        "trigOuts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "clockMaster": -1
+      },
+      "pos": [
+        -65,
+        0
+      ]
+    },
+    {
+      "id": 4187213689217722,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.0",
+      "params": [],
+      "leftModuleId": 2159047972516498,
+      "rightModuleId": 3830846223236507,
+      "data": {},
+      "pos": [
+        -55,
+        0
+      ]
+    },
+    {
+      "id": 3830846223236507,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.0",
+      "params": [],
+      "leftModuleId": 4187213689217722,
+      "rightModuleId": 5622494419825952,
+      "data": {},
+      "pos": [
+        -52,
+        0
+      ]
+    },
+    {
+      "id": 5588781388402853,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-ADSR",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.10286685824394226,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 6485270196416882,
+      "rightModuleId": 1170574363078075,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": 7382001000905062,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-ADSR",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.14142100512981415,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 1305145125414192,
+      "rightModuleId": 438885941898769,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": 2278749660885397,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-ADSR",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.14142100512981415,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 998069146105942,
+      "rightModuleId": 6529439116344665,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 413123163252880,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-ADSR",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.17274630069732666,
+          "id": 0
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.31622999906539917,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 8554745767661414,
+      "rightModuleId": 3745062635142253,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        -9,
+        0
+      ]
+    },
     {
       "id": 6766853921521776,
       "plugin": "AriaSalvatrice",
@@ -484,180 +733,6 @@
       ]
     },
     {
-      "id": 2159047972516498,
-      "plugin": "ImpromptuModular",
-      "model": "Clocked-Clkd",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 2.0,
-          "id": 2
-        },
-        {
-          "value": 151.0,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        },
-        {
-          "value": 0.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        }
-      ],
-      "leftModuleId": 4187213689217722,
-      "rightModuleId": 3830846223236507,
-      "data": {
-        "panelTheme": 1,
-        "panelContrast": 220.0,
-        "running": false,
-        "bpmDetectionMode": false,
-        "resetOnStartStop": 0,
-        "ppqn": 4,
-        "resetClockOutputsHigh": true,
-        "momentaryRunInput": true,
-        "forceCvOnBpmOut": false,
-        "displayIndex": 0,
-        "trigOuts": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "clockMaster": -1
-      },
-      "pos": [
-        -52,
-        0
-      ]
-    },
-    {
-      "id": 4187213689217722,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.0",
-      "params": [],
-      "rightModuleId": 2159047972516498,
-      "data": {},
-      "pos": [
-        -55,
-        0
-      ]
-    },
-    {
-      "id": 3830846223236507,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.0",
-      "params": [],
-      "leftModuleId": 2159047972516498,
-      "rightModuleId": 5622494419825952,
-      "data": {},
-      "pos": [
-        -42,
-        0
-      ]
-    },
-    {
-      "id": 5588781388402853,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-ADSR",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.10286685824394226,
-          "id": 0
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        }
-      ],
-      "leftModuleId": 6485270196416882,
-      "rightModuleId": 1170574363078075,
-      "data": {
-        "invert": 1.0
-      },
-      "pos": [
-        46,
-        0
-      ]
-    },
-    {
-      "id": 7382001000905062,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-ADSR",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.14142100512981415,
-          "id": 0
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        }
-      ],
-      "leftModuleId": 1305145125414192,
-      "rightModuleId": 438885941898769,
-      "data": {
-        "invert": 1.0
-      },
-      "pos": [
-        18,
-        0
-      ]
-    },
-    {
       "id": 5622494419825952,
       "plugin": "AriaSalvatrice",
       "model": "Darius",
@@ -956,7 +1031,7 @@
           "id": 72
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 73
         },
         {
@@ -1015,23 +1090,82 @@
       "leftModuleId": 3830846223236507,
       "rightModuleId": 8554745767661414,
       "data": {
-        "step": 4,
-        "node": 11,
-        "lastNode": 11,
-        "lastGate": 11,
+        "step": 7,
+        "node": 30,
+        "lastNode": 30,
+        "lastGate": 30,
         "pathTraveled": [
           0,
           1,
           3,
           6,
-          11,
-          -1,
-          -1,
-          -1
+          10,
+          16,
+          23,
+          30
         ]
       },
       "pos": [
-        -39,
+        -49,
+        0
+      ]
+    },
+    {
+      "id": 8554745767661414,
+      "plugin": "21kHz",
+      "model": "kHzPalmLoop",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 9.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 5622494419825952,
+      "rightModuleId": 413123163252880,
+      "pos": [
+        -17,
+        0
+      ]
+    },
+    {
+      "id": 3745062635142253,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mix1",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.88509106636047363,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 413123163252880,
+      "rightModuleId": 6814437816954201,
+      "data": {
+        "linear_cv": false
+      },
+      "pos": [
+        -6,
         0
       ]
     },
@@ -1334,7 +1468,7 @@
           "id": 72
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 73
         },
         {
@@ -1393,18 +1527,18 @@
       "leftModuleId": 4757927610032130,
       "rightModuleId": 4527978366762434,
       "data": {
-        "step": 1,
-        "node": 1,
-        "lastNode": 1,
-        "lastGate": 1,
+        "step": 6,
+        "node": 24,
+        "lastNode": 24,
+        "lastGate": 24,
         "pathTraveled": [
           0,
-          1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
+          2,
+          4,
+          7,
+          12,
+          18,
+          24,
           -1
         ]
       },
@@ -1712,7 +1846,7 @@
           "id": 72
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 73
         },
         {
@@ -1771,18 +1905,18 @@
       "leftModuleId": 4881975851057372,
       "rightModuleId": 1135374743729970,
       "data": {
-        "step": 1,
-        "node": 2,
-        "lastNode": 2,
-        "lastGate": 2,
+        "step": 6,
+        "node": 27,
+        "lastNode": 27,
+        "lastGate": 27,
         "pathTraveled": [
           0,
           2,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
+          5,
+          9,
+          14,
+          20,
+          27,
           -1
         ]
       },
@@ -2090,7 +2224,7 @@
           "id": 72
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 73
         },
         {
@@ -2149,18 +2283,18 @@
       "leftModuleId": 4527978366762434,
       "rightModuleId": 536482491730803,
       "data": {
-        "step": 1,
-        "node": 1,
-        "lastNode": 1,
-        "lastGate": 1,
+        "step": 6,
+        "node": 21,
+        "lastNode": 21,
+        "lastGate": 21,
         "pathTraveled": [
           0,
           1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
+          3,
+          6,
+          10,
+          15,
+          21,
           -1
         ]
       },
@@ -2199,7 +2333,7 @@
       "leftModuleId": 6529439116344665,
       "rightModuleId": 5588781388402853,
       "pos": [
-        38,
+        28,
         0
       ]
     },
@@ -2224,7 +2358,7 @@
         "linear_cv": false
       },
       "pos": [
-        49,
+        39,
         0
       ]
     },
@@ -2250,7 +2384,7 @@
       "leftModuleId": 1170574363078075,
       "rightModuleId": 5268894183644161,
       "pos": [
-        52,
+        42,
         0
       ]
     },
@@ -2284,7 +2418,32 @@
       "leftModuleId": 438885941898769,
       "rightModuleId": 2278749660885397,
       "pos": [
-        24,
+        14,
+        0
+      ]
+    },
+    {
+      "id": 6529439116344665,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mix1",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.90909093618392944,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 2278749660885397,
+      "rightModuleId": 6485270196416882,
+      "data": {
+        "linear_cv": false
+      },
+      "pos": [
+        25,
         0
       ]
     },
@@ -2318,7 +2477,7 @@
       "leftModuleId": 3745062635142253,
       "rightModuleId": 1305145125414192,
       "pos": [
-        7,
+        -3,
         0
       ]
     },
@@ -2343,7 +2502,7 @@
         "linear_cv": false
       },
       "pos": [
-        21,
+        11,
         0
       ]
     },
@@ -2368,7 +2527,7 @@
         "linear_cv": false
       },
       "pos": [
-        15,
+        5,
         0
       ]
     },
@@ -2459,165 +2618,7 @@
         "DISPLAYB": 1
       },
       "pos": [
-        58,
-        0
-      ]
-    },
-    {
-      "id": 8554745767661414,
-      "plugin": "21kHz",
-      "model": "kHzPalmLoop",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 9.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        }
-      ],
-      "leftModuleId": 5622494419825952,
-      "rightModuleId": 413123163252880,
-      "pos": [
-        -7,
-        0
-      ]
-    },
-    {
-      "id": 2278749660885397,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-ADSR",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.14142100512981415,
-          "id": 0
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        }
-      ],
-      "leftModuleId": 998069146105942,
-      "rightModuleId": 6529439116344665,
-      "data": {
-        "invert": 1.0
-      },
-      "pos": [
-        32,
-        0
-      ]
-    },
-    {
-      "id": 6529439116344665,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mix1",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.90909093618392944,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 2278749660885397,
-      "rightModuleId": 6485270196416882,
-      "data": {
-        "linear_cv": false
-      },
-      "pos": [
-        35,
-        0
-      ]
-    },
-    {
-      "id": 413123163252880,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-ADSR",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.17274630069732666,
-          "id": 0
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 1
-        },
-        {
-          "value": 1.0,
-          "id": 2
-        },
-        {
-          "value": 0.31622999906539917,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        }
-      ],
-      "leftModuleId": 8554745767661414,
-      "rightModuleId": 3745062635142253,
-      "data": {
-        "invert": 1.0
-      },
-      "pos": [
-        1,
-        0
-      ]
-    },
-    {
-      "id": 3745062635142253,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mix1",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.88509106636047363,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 413123163252880,
-      "rightModuleId": 6814437816954201,
-      "data": {
-        "linear_cv": false
-      },
-      "pos": [
-        4,
+        48,
         0
       ]
     },
@@ -2628,7 +2629,7 @@
       "version": "2.0",
       "params": [
         {
-          "value": 0.5,
+          "value": 0.79518008232116699,
           "id": 0
         },
         {
@@ -2912,7 +2913,7 @@
         ]
       },
       "pos": [
-        83,
+        73,
         0
       ]
     },
@@ -3149,7 +3150,7 @@
         "dcFilter": true
       },
       "pos": [
-        103,
+        93,
         0
       ]
     }
