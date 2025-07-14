@@ -1,13 +1,55 @@
 {
   "version": "2.4.1",
-  "zoom": 0.84089595079421997,
+  "zoom": 0.59460294246673584,
   "gridOffset": [
-    -50.409896850585937,
-    -0.93991571664810181
+    -45.342578887939453,
+    -1.0464946031570435
   ],
   "modules": [
     {
-      "id": 488243743732328,
+      "id": 5027539693328060,
+      "plugin": "Befaco",
+      "model": "ADSR",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.1279999166727066,
+          "id": 3
+        },
+        {
+          "value": 0.40000000596046448,
+          "id": 4
+        },
+        {
+          "value": 0.59399974346160889,
+          "id": 5
+        },
+        {
+          "value": 0.40000000596046448,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 6909416435338851,
+      "rightModuleId": 5304537399790642,
+      "pos": [
+        28,
+        3
+      ]
+    },
+    {
+      "id": 5925985768471369,
       "plugin": "Fundamental",
       "model": "LFO",
       "version": "2.0",
@@ -21,7 +63,7 @@
           "id": 1
         },
         {
-          "value": -1.9277079105377197,
+          "value": -1.8626500368118286,
           "id": 2
         },
         {
@@ -41,57 +83,11 @@
           "id": 6
         }
       ],
-      "leftModuleId": 3350018627959053,
-      "rightModuleId": 6008429984125052,
+      "leftModuleId": 5299613845718611,
+      "rightModuleId": 6909416435338851,
       "pos": [
-        49,
-        4
-      ]
-    },
-    {
-      "id": 6008429984125052,
-      "plugin": "Fundamental",
-      "model": "Scope",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 1.0,
-          "id": 4
-        },
-        {
-          "value": 0.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 1.0,
-          "id": 7
-        }
-      ],
-      "leftModuleId": 488243743732328,
-      "rightModuleId": 3415837546298642,
-      "pos": [
-        58,
-        4
+        7,
+        3
       ]
     },
     {
@@ -146,7 +142,7 @@
       "data": {
         "panelTheme": 1,
         "panelContrast": 220.0,
-        "running": false,
+        "running": true,
         "bpmDetectionMode": false,
         "resetOnStartStop": 0,
         "ppqn": 4,
@@ -1925,7 +1921,9 @@
       "data": {
         "lowSensitivityAttenuverters": [],
         "voltageFlippedOutputPorts": [],
-        "enableStereoSplitter": false
+        "enableStereoSplitter": false,
+        "enableStereoMerge": false,
+        "neonMode": false
       },
       "pos": [
         77,
@@ -2650,7 +2648,7 @@
       "data": {
         "panelTheme": 1,
         "panelContrast": 220.0,
-        "running": false,
+        "running": true,
         "indexStep": 0,
         "indexStepStage": 0,
         "indexChannel": 0,
@@ -3263,7 +3261,7 @@
       "data": {
         "panelTheme": 1,
         "panelContrast": 220.0,
-        "running": false,
+        "running": true,
         "indexStep": 0,
         "indexStepStage": 0,
         "indexChannel": 0,
@@ -3574,59 +3572,109 @@
       ]
     },
     {
-      "id": 3350018627959053,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-LVCF",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.22842741012573242,
-          "id": 0
-        },
-        {
-          "value": 0.29156613349914551,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        }
-      ],
-      "leftModuleId": 6053817323905361,
-      "rightModuleId": 488243743732328,
-      "data": {
-        "poles": 4,
-        "bandwidthMode": "pitched"
-      },
-      "pos": [
-        46,
-        4
-      ]
-    },
-    {
-      "id": 3415837546298642,
+      "id": 6909416435338851,
       "plugin": "AudibleInstruments",
-      "model": "Shades",
+      "model": "Plaits",
       "version": "2.0",
       "params": [
         {
-          "value": 0.80963855981826782,
+          "value": 0.0,
           "id": 0
         },
         {
-          "value": 0.51204842329025269,
+          "value": 0.0,
           "id": 1
         },
         {
-          "value": 0.76385641098022461,
+          "value": 0.0,
           "id": 2
         },
         {
           "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.5,
+          "id": 4
+        },
+        {
+          "value": 0.12048198282718658,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.61866778135299683,
+          "id": 8
+        },
+        {
+          "value": 0.5,
+          "id": 9
+        },
+        {
+          "value": 0.5,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 5925985768471369,
+      "rightModuleId": 5027539693328060,
+      "data": {
+        "lowCpu": false,
+        "model": 14
+      },
+      "pos": [
+        16,
+        3
+      ]
+    },
+    {
+      "id": 5304537399790642,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 5027539693328060,
+      "rightModuleId": 7763978501575417,
+      "pos": [
+        36,
+        3
+      ]
+    },
+    {
+      "id": 7763978501575417,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
           "id": 3
         },
         {
@@ -3634,14 +3682,60 @@
           "id": 4
         },
         {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 5304537399790642,
+      "rightModuleId": 7619424003926934,
+      "pos": [
+        39,
+        3
+      ]
+    },
+    {
+      "id": 7619424003926934,
+      "plugin": "AudibleInstruments",
+      "model": "Shades",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.007228996604681015,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
           "value": 1.0,
           "id": 5
         }
       ],
-      "leftModuleId": 6008429984125052,
+      "leftModuleId": 7763978501575417,
       "pos": [
-        71,
-        4
+        52,
+        3
       ]
     },
     {
@@ -3806,7 +3900,9 @@
       "data": {
         "lowSensitivityAttenuverters": [],
         "voltageFlippedOutputPorts": [],
-        "enableStereoSplitter": false
+        "enableStereoSplitter": false,
+        "enableStereoMerge": false,
+        "neonMode": false
       },
       "pos": [
         43,
@@ -3851,7 +3947,7 @@
       ]
     },
     {
-      "id": 5925985768471369,
+      "id": 488243743732328,
       "plugin": "Fundamental",
       "model": "LFO",
       "version": "2.0",
@@ -3865,7 +3961,7 @@
           "id": 1
         },
         {
-          "value": -1.8626500368118286,
+          "value": -1.9277079105377197,
           "id": 2
         },
         {
@@ -3885,15 +3981,15 @@
           "id": 6
         }
       ],
-      "leftModuleId": 5299613845718611,
-      "rightModuleId": 6909416435338851,
+      "leftModuleId": 3350018627959053,
+      "rightModuleId": 6008429984125052,
       "pos": [
-        7,
-        3
+        49,
+        4
       ]
     },
     {
-      "id": 7763978501575417,
+      "id": 6008429984125052,
       "plugin": "Fundamental",
       "model": "Scope",
       "version": "2.0",
@@ -3931,25 +4027,25 @@
           "id": 7
         }
       ],
-      "leftModuleId": 5304537399790642,
-      "rightModuleId": 7619424003926934,
+      "leftModuleId": 488243743732328,
+      "rightModuleId": 3415837546298642,
       "pos": [
-        39,
-        3
+        58,
+        4
       ]
     },
     {
-      "id": 6909416435338851,
-      "plugin": "AudibleInstruments",
-      "model": "Plaits",
+      "id": 3350018627959053,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-LVCF",
       "version": "2.0",
       "params": [
         {
-          "value": 0.0,
+          "value": 0.22842741012573242,
           "id": 0
         },
         {
-          "value": 0.0,
+          "value": 0.29156613349914551,
           "id": 1
         },
         {
@@ -3957,95 +4053,45 @@
           "id": 2
         },
         {
-          "value": 1.0,
+          "value": 0.0,
           "id": 3
-        },
-        {
-          "value": 0.5,
-          "id": 4
-        },
-        {
-          "value": 0.12048198282718658,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.61866778135299683,
-          "id": 8
-        },
-        {
-          "value": 0.5,
-          "id": 9
-        },
-        {
-          "value": 0.5,
-          "id": 10
         }
       ],
-      "leftModuleId": 5925985768471369,
-      "rightModuleId": 5027539693328060,
+      "leftModuleId": 6053817323905361,
+      "rightModuleId": 488243743732328,
       "data": {
-        "lowCpu": false,
-        "model": 14
+        "poles": 4,
+        "bandwidthMode": "pitched"
       },
       "pos": [
-        16,
-        3
+        46,
+        4
       ]
     },
     {
-      "id": 5304537399790642,
-      "plugin": "Fundamental",
-      "model": "VCA-1",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 1.0,
-          "id": 0
-        },
-        {
-          "value": 1.0,
-          "id": 1
-        }
-      ],
-      "leftModuleId": 5027539693328060,
-      "rightModuleId": 7763978501575417,
-      "pos": [
-        36,
-        3
-      ]
-    },
-    {
-      "id": 7619424003926934,
+      "id": 3415837546298642,
       "plugin": "AudibleInstruments",
       "model": "Shades",
       "version": "2.0",
       "params": [
         {
-          "value": 1.0,
+          "value": 0.80963855981826782,
           "id": 0
         },
         {
-          "value": 0.007228996604681015,
+          "value": 0.51204842329025269,
           "id": 1
         },
         {
-          "value": 1.0,
+          "value": 0.76385641098022461,
           "id": 2
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 3
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 4
         },
         {
@@ -4053,10 +4099,10 @@
           "id": 5
         }
       ],
-      "leftModuleId": 7763978501575417,
+      "leftModuleId": 6008429984125052,
       "pos": [
-        52,
-        3
+        71,
+        4
       ]
     },
     {
@@ -5499,48 +5545,6 @@
       "pos": [
         22,
         -1
-      ]
-    },
-    {
-      "id": 5027539693328060,
-      "plugin": "Befaco",
-      "model": "ADSR",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.1279999166727066,
-          "id": 3
-        },
-        {
-          "value": 0.40000000596046448,
-          "id": 4
-        },
-        {
-          "value": 0.59399974346160889,
-          "id": 5
-        },
-        {
-          "value": 0.40000000596046448,
-          "id": 6
-        }
-      ],
-      "leftModuleId": 6909416435338851,
-      "rightModuleId": 5304537399790642,
-      "pos": [
-        28,
-        3
       ]
     },
     {
