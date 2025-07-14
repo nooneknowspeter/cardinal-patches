@@ -2,8 +2,8 @@
   "version": "2.4.1",
   "zoom": 0.59460264444351196,
   "gridOffset": [
-    -34.596092224121094,
-    -1.5034539699554443
+    -31.232421875,
+    -1.2423313856124878
   ],
   "modules": [
     {
@@ -25,7 +25,7 @@
           "id": 2
         },
         {
-          "value": 222.0,
+          "value": 30.0,
           "id": 3
         },
         {
@@ -64,7 +64,7 @@
         "resetClockOutputsHigh": true,
         "momentaryRunInput": true,
         "forceCvOnBpmOut": false,
-        "displayIndex": 2,
+        "displayIndex": 0,
         "trigOuts": [
           false,
           false,
@@ -103,124 +103,6 @@
       "data": {},
       "pos": [
         -13,
-        -1
-      ]
-    },
-    {
-      "id": 5861176669117263,
-      "plugin": "AnimatedCircuits",
-      "model": "ACLFold",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.23845776915550232,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 2.5,
-          "id": 3
-        },
-        {
-          "value": 0.0,
-          "id": 4
-        },
-        {
-          "value": 0.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 0.0,
-          "id": 7
-        },
-        {
-          "value": 0.0,
-          "id": 8
-        },
-        {
-          "value": 0.0,
-          "id": 9
-        },
-        {
-          "value": 0.0,
-          "id": 10
-        }
-      ],
-      "leftModuleId": 240663416572480,
-      "rightModuleId": 7350243591042263,
-      "pos": [
-        26,
-        -1
-      ]
-    },
-    {
-      "id": 7350243591042263,
-      "plugin": "Fundamental",
-      "model": "Scope",
-      "version": "2.0",
-      "params": [
-        {
-          "value": 0.0,
-          "id": 0
-        },
-        {
-          "value": 0.0,
-          "id": 1
-        },
-        {
-          "value": 0.0,
-          "id": 2
-        },
-        {
-          "value": 0.0,
-          "id": 3
-        },
-        {
-          "value": 1.0,
-          "id": 4
-        },
-        {
-          "value": 0.0,
-          "id": 5
-        },
-        {
-          "value": 0.0,
-          "id": 6
-        },
-        {
-          "value": 1.0,
-          "id": 7
-        }
-      ],
-      "leftModuleId": 5861176669117263,
-      "rightModuleId": 1580729223608153,
-      "pos": [
-        31,
-        -1
-      ]
-    },
-    {
-      "id": 8196572981455584,
-      "plugin": "Bogaudio",
-      "model": "Bogaudio-Mult",
-      "version": "2.0",
-      "params": [],
-      "leftModuleId": 1580729223608153,
-      "rightModuleId": 4831645834992317,
-      "data": {},
-      "pos": [
-        50,
         -1
       ]
     },
@@ -489,6 +371,124 @@
       ]
     },
     {
+      "id": 5861176669117263,
+      "plugin": "AnimatedCircuits",
+      "model": "ACLFold",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.23845776915550232,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 2.5,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 240663416572480,
+      "rightModuleId": 7350243591042263,
+      "pos": [
+        26,
+        -1
+      ]
+    },
+    {
+      "id": 7350243591042263,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.0",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        }
+      ],
+      "leftModuleId": 5861176669117263,
+      "rightModuleId": 1580729223608153,
+      "pos": [
+        31,
+        -1
+      ]
+    },
+    {
+      "id": 8196572981455584,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Mult",
+      "version": "2.0",
+      "params": [],
+      "leftModuleId": 1580729223608153,
+      "rightModuleId": 4831645834992317,
+      "data": {},
+      "pos": [
+        50,
+        -1
+      ]
+    },
+    {
       "id": 1580729223608153,
       "plugin": "Befaco",
       "model": "ABC",
@@ -547,15 +547,15 @@
           "id": 1
         },
         {
-          "value": 1.0,
+          "value": 0.0,
           "id": 2
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 3
         },
         {
-          "value": 0.0,
+          "value": 1.0,
           "id": 4
         },
         {
@@ -768,9 +768,9 @@
           [
             false,
             true,
+            false,
             true,
-            false,
-            false,
+            true,
             false,
             false,
             false,
@@ -1721,7 +1721,7 @@
       "data": {
         "filepath": "",
         "lang": "None",
-        "etext": "           -`                     nooneknows\n                 .o+`                    \n                `ooo/                    \n               `+oooo:                   \n              `+oooooo:                  \n              -+oooooo+:                 \n            `/:-:++oooo+:                \n           `/++++/+++++++:               \n          `/++++++++++++++:              \n         `/+++ooooooooooooo/`            \n        ./ooosssso++osssssso+`           \n       .oossssso-````/ossssss+`          \n      -osssssso.      :ssssssso.         \n     :osssssss/        osssso+++.        \n    /ossssssss/        +ssssooo/-        \n  `/ossssso+/:-        -:/+osssso+-      \n `+sso+:-`                 `.-/+oso:     \n`++:.                           `-/+/    \n.`                                 `/    \n                                       \nI USE ARCH BTW\n\n",
+        "etext": "           -`                     nooneknows\n                 .o+`                    \n                `ooo/                    \n               `+oooo:                   \n              `+oooooo:                  \n              -+oooooo+:                 \n            `/:-:++oooo+:                \n           `/++++/+++++++:               \n          `/++++++++++++++:              \n         `/+++ooooooooooooo/`            \n        ./ooosssso++osssssso+`           \n       .oossssso-````/ossssss+`          \n      -osssssso.      :ssssssso.         \n     :osssssss/        osssso+++.        \n    /ossssssss/        +ssssooo/-        \n  `/ossssso+/:-        -:/+osssso+-      \n `+sso+:-`                 `.-/+oso:     \n`++:.                           `-/+/    \n.`                                 `/    \n                                       \nI USE ARCH BTW\n\n\n",
         "width": 30
       },
       "pos": [
